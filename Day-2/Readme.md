@@ -61,7 +61,7 @@ if(arr[i]==0)
     left++
 else if(arr[i]==1)
     i++
-else<br>
+else
     swap(i,right)
     right--
 ```
