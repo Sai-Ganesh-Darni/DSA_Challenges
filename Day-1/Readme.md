@@ -53,10 +53,9 @@ Using this approach we took the half the iterations used before and we did it us
 Time Complexity - O(n/2)  = O(n)
 <br>
 Space Complexity - O(1)
-<br>
-<br>
+
 ## 2. Rotate Array
-<br>
+
 Given an array and k, we need to rotate the array right side by k places. 
 <br>
 ### I. Brute Force
@@ -94,8 +93,7 @@ That's it, the array is rotated right side by k places
 Time Complexity: O(n)
 <br>
 Space Complexity: O(n)
-<br>
-<br>
+
 ### II. Optimal Solution (Reversal Algorithm)
 <br>
 This solution is very interesting, we'll understand this only when we observe what happens when we rotate the array.
