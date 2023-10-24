@@ -54,15 +54,17 @@ Space Complexity: O(1)
 We need to sort array in a such a way that all 0s should be at start, 1s should be in the middle and 2s should be at the end. So if we can place all the 0s we encounter in the starting, 2s we encounter at the end. Automatically 1s will be placed in the middle. For this we use two pointers, one will be used to place 0s and one will be used to place the 2s. We'll iterate through the array using the iterator. 
 <br>
 We'll use left, right pointers<br>
-if(arr[i]==0)<br>
-    swap(i,left)<br>
-    i++<br>
-    left++<br>
-else if(arr[i]==1)<br>
-    i++<br>
+```
+if(arr[i]==0)
+    swap(i,left)
+    i++
+    left++
+else if(arr[i]==1)
+    i++
 else<br>
-    swap(i,right)<br>
-    right--<br>
+    swap(i,right)
+    right--
+```
 <br>
 Ex: {2,0,2,1,1,0,0} <br>
 let iterator i = 0 and left = 0 and right = len-1<br>
