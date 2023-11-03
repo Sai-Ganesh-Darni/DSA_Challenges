@@ -22,5 +22,6 @@ public class LargestRectangleinHistogram {
             arr[i] = sc.nextInt();
         }
         System.out.println(largestRectangleArea(arr));
+        sc.close();
     }
 }
